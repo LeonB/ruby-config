@@ -3,6 +3,6 @@ Manifest.txt
 README.txt
 Rakefile
 lib/ruby-config.rb
+test/test_commandline_source.rb
 test/test_helper.rb
 test/test_ruby-config.rb
-test_ruby-config

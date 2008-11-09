@@ -29,6 +29,9 @@ PROJ.exclude = %w(.git pkg/ nbproject/ doc/  website/ )
 PROJ.gem.dependencies << 'metaid'
 PROJ.gem.dependencies << 'user-choices'
 
+#PROJ.rdoc.remote_dir = 'docs/'
+PROJ.rcov.opts << "--exclude rcov.rb"
+
 PROJ.spec.opts << '--color'
 
 # EOF
