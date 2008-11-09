@@ -5,7 +5,7 @@ require 'metaid'
 unless defined? RubyConfig
 
   class RubyConfig
-    VERSION = '0.0.1'
+    VERSION = '0.0.2'
     LIBPATH = ::File.expand_path(::File.dirname(__FILE__)) + ::File::SEPARATOR
     PATH = ::File.dirname(LIBPATH) + ::File::SEPARATOR
 
@@ -47,6 +47,10 @@ unless defined? RubyConfig
       self.use_values(builder_values)
     end
 
+    def options
+      @options ||= []
+    end
+
     protected
     def builder
       RubyConfig.builder
@@ -54,10 +58,6 @@ unless defined? RubyConfig
 
     def configs
       @configs ||= {}
-    end
-
-    def options
-      @options ||= []
     end
 
     def use_values(builder_values)
@@ -85,7 +85,7 @@ unless defined? RubyConfig
     end
 
     def define_config_methods(config_name)
-      config_name.to_s.downcase!
+      config_name = config_name.to_s.downcase
 
       self.meta_def(config_name) do
         configs[config_name]
