@@ -2,7 +2,9 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/home/leon/Workspaces/ruby-config/README.txt</file>
         <file>file:/home/leon/Workspaces/ruby-config/lib/ruby-config.rb</file>
-        <file>file:/home/leon/Workspaces/ruby-config/test/test_ruby-config.rb</file>
+        <file>file:/home/leon/Workspaces/ruby-config/test/test_commandline_source.rb</file>
+        <file>file:/home/leon/Workspaces/ruby-config/test/test_helper.rb</file>
     </open-files>
 </project-private>

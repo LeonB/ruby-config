@@ -36,9 +36,9 @@ unless defined? RubyConfig
     end
 
     #Original the add_choice method from user-choice
-    def add_option(*args, &block)
-      self.options << args.first
-      self.builder.add_choice(*args, &block)
+    def add_option(choice, *args, &block)
+      self.options << choice
+      self.builder.add_choice(choice, *args, &block)
     end
 
     #Get the yaml, parameter, etc. parameters and put them in conf-methodss
