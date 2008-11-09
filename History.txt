@@ -1,0 +1,5 @@
+== 0.0.1 / 2008-11-09
+
+* 0.0.1 First release
+  * Simple user interface for user-choices
+  * Some tests, it's very simple. Just to insure user-choices works
