@@ -4,8 +4,6 @@
 
 == DESCRIPTION:
 
-
-
 A different interface for the user-choices gem. The config can now be instantiated as an object and supports sub-configs and can be build from different files. The advantage is that you can ruby-config in a kinda plugin structure.
 
 == FEATURES/PROBLEMS:
